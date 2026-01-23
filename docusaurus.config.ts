@@ -3,17 +3,17 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'TrueMarkets',
-  tagline: 'TrueMarkets Documentation',
+  title: 'Trueo',
+  tagline: 'Trueo Documentation',
   favicon: 'img/favicon.svg',
 
   // -------------------------------------------------------------------------
   // 1. Deployment Configuration
   // -------------------------------------------------------------------------
-  url: 'https://docs.truemarkets.org',
+  url: 'https://docs.trueo.io',
   baseUrl: '/',
 
-  organizationName: 'truemarketsorg',
+  organizationName: 'trueoio',
   projectName: 'docs',
   trailingSlash: false,
 
@@ -57,9 +57,9 @@ const config: Config = {
     image: 'img/truemarkets-social-card.png',
 
     navbar: {
-      title: 'Truemarkets',
+      title: 'Trueo',
       logo: {
-        alt: 'Truemarkets Logo',
+        alt: 'Trueo Logo',
         src: 'img/logo.svg', // Ensure you have this file in static/img/
       },
     },
@@ -72,11 +72,11 @@ const config: Config = {
           items: [
             {
               label: 'App',
-              href: 'https://truemarkets.org/',
+              href: 'https://trueo.io/',
             },
             {
               label: 'Attesters',
-              href: 'https://truemarkets.org/en/attesters/',
+              href: 'https://trueo.io/en/attesters/',
             },
           ],
         },
@@ -98,12 +98,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/truemarketsorg',
+              href: 'https://github.com/trueoio',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Truemarkets. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Trueo. Built with Docusaurus.`,
     },
 
     prism: {
