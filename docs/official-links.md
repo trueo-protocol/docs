@@ -10,7 +10,7 @@ Website - [Trueo.io](https://trueo.io)
 
 Discord - [https://discord.gg/trueo](https://discord.gg/trueo)
 
-X - [https://x.com/trueo_io](https://x.com/trueo_io)
+X - [https://x.com/trueo_app](https://x.com/trueo_app)
 
 Brand assets - [https://trueo.io/en/brand](https://trueo.io/en/brand)
 
