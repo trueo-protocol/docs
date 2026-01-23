@@ -4,11 +4,11 @@ sidebar_position: 10
 
 # Oracle Council
 
-The Oracle Council (OC) is a governance body within Truemarkets and serves as the primary arbiter for low-level disputes. It operates as a specialist committee under the Truth Oracle framework, providing informed judgment and protocol stewardship during the early stages of the system.
+The Oracle Council (OC) is a governance body within Trueo and serves as the primary arbiter for low-level disputes. It operates as a specialist committee under the Truth Oracle framework, providing informed judgment and protocol stewardship during the early stages of the system.
 
 ## Responsibilities
 
-The Oracle Council fulfills several core functions within Truemarkets:
+The Oracle Council fulfills several core functions within Trueo:
 
 - **Market Creation (Genesis Phase)** — Creating markets in accordance with the Market Creation Guidelines, informed by community input and market insights.
 - **Low-Level Dispute Resolution** — Arbitrating initial disputes and proposing resolutions when markets are challenged.
@@ -24,7 +24,7 @@ Of all arbitrators in the system, the Oracle Council is expected to provide the 
 
 ## Honesty Assumptions and Trust Model
 
-The security of Truemarkets does not rely on strong honesty assumptions about the Oracle Council. While the OC plays a critical role, its authority is intentionally constrained.
+The security of Trueo does not rely on strong honesty assumptions about the Oracle Council. While the OC plays a critical role, its authority is intentionally constrained.
 
 All Oracle Council decisions may be permissionlessly challenged with a modest bond and escalated to increasingly neutral arbitrators. As a result, the Council's influence over final outcomes is limited and non-arbitrary.
 
@@ -34,7 +34,7 @@ These constraints significantly limit the attack surface associated with Oracle 
 
 ## Governance Responsibilities
 
-During the genesis phase, the Oracle Council may assume additional governance responsibilities, such as defining market-level and oracle-related parameters. These responsibilities are expected to be progressively relaxed or decentralized as Truemarkets governance matures.
+During the genesis phase, the Oracle Council may assume additional governance responsibilities, such as defining market-level and oracle-related parameters. These responsibilities are expected to be progressively relaxed or decentralized as Trueo governance matures.
 
 ### Genesis Oracle Council members
 

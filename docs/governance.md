@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # Governance
 
-Truemarkets governance will be partially managed on snapshot, partially delegated to the Oracle Council, and partially determined through novel futarchy experiments.
+Trueo governance will be partially managed on snapshot, partially delegated to the Oracle Council, and partially determined through novel futarchy experiments.
 
 Due to constantly evolving standards, it is important for the protocol to remain flexible with regards to governance and be ready to adopt modern frameworks as they emerge.
 

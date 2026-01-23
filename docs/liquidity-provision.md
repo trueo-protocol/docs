@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Minting YES/NO Tokens
 
-In Truemarkets, anyone can permissionlessly mint YES and NO tokens for a market once it has been initialized, allowing the free market to determine the circulating supply of outcome tokens and provide liquidity accordingly.
+In Trueo, anyone can permissionlessly mint YES and NO tokens for a market once it has been initialized, allowing the free market to determine the circulating supply of outcome tokens and provide liquidity accordingly.
 
 YES and NO tokens are minted by depositing TYD into the market. For every 1 TYD deposited, the protocol mints exactly 1 YES token and 1 NO token.
 

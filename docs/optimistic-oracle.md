@@ -4,9 +4,9 @@ sidebar_position: 8
 
 # Optimistic Oracle
 
-Truemarkets uses a dispute resolution implementation which follows the [Truth Oracle](https://truth-oracle.gitbook.io/truth-oracle) framework.
+Trueo uses a dispute resolution implementation which follows the [Truth Oracle](https://truth-oracle.gitbook.io/truth-oracle) framework.
 
-Like most optimistic oracles, Truemarkets treats proposed resolutions as valid by default unless they are disputed. If a proposed resolution is challenged, the protocol's enshrined oracle system is activated. This system features a multi-stage escalation process that progressively incorporates broader and more intersubjective perspectives.
+Like most optimistic oracles, Trueo treats proposed resolutions as valid by default unless they are disputed. If a proposed resolution is challenged, the protocol's enshrined oracle system is activated. This system features a multi-stage escalation process that progressively incorporates broader and more intersubjective perspectives.
 
 An initial dispute may be filed permissionlessly during the challenge window by anyone willing to post a bond equal to the resolver's bond. Once disputed, the Oracle Council arbitrates the resolution by selecting an outcome and determining the slashing conditions for both the resolver's and disputer's bonds.
 
