@@ -6,17 +6,17 @@ sidebar_position: 14
 
 ## Links
 
-Website - [Trueo.io](https://trueo.io)
+Website - [Trueo.com](https://trueo.com)
 
 Discord - [https://discord.gg/trueo](https://discord.gg/trueo)
 
 X - [https://x.com/trueo_app](https://x.com/trueo_app)
 
-Brand assets - [https://trueo.io/en/brand](https://trueo.io/en/brand)
+Brand assets - [https://trueo.com/en/brand](https://trueo.com/en/brand)
 
 Oracle whitepaper - [https://truth-oracle.gitbook.io/truth-oracle](https://truth-oracle.gitbook.io/truth-oracle)
 
-Github - [https://github.com/trueoio](https://github.com/trueoio)
+Github - [https://github.com/trueo-protocol](https://github.com/trueo-protocol)
 
 ## Contract Addresses
 
