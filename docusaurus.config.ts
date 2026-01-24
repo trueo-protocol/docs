@@ -10,10 +10,10 @@ const config: Config = {
   // -------------------------------------------------------------------------
   // 1. Deployment Configuration
   // -------------------------------------------------------------------------
-  url: 'https://docs.trueo.io',
+  url: 'https://docs.trueo.com',
   baseUrl: '/',
 
-  organizationName: 'trueoio',
+  organizationName: 'trueo-protocol',
   projectName: 'docs',
   trailingSlash: false,
 
@@ -72,11 +72,11 @@ const config: Config = {
           items: [
             {
               label: 'App',
-              href: 'https://trueo.io/',
+              href: 'https://trueo.com/',
             },
             {
               label: 'Attesters',
-              href: 'https://trueo.io/en/attesters/',
+              href: 'https://trueo.com/en/attesters/',
             },
           ],
         },
@@ -98,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/trueoio',
+              href: 'https://github.com/trueo-protocol',
             },
           ],
         },
