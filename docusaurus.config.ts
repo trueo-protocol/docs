@@ -54,7 +54,7 @@ const config: Config = {
   // 4. Theme Configuration
   // -------------------------------------------------------------------------
   themeConfig: {
-    image: 'img/truemarkets-social-card.png',
+    image: 'img/trueo-social-card.png',
 
     navbar: {
       title: 'Trueo',
@@ -85,11 +85,11 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/truemarkets',
+              href: 'https://discord.gg/trueo',
             },
             {
               label: 'X',
-              href: 'https://x.com/truemarkets',
+              href: 'https://x.com/trueo_app',
             },
           ],
         },

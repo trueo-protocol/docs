@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Disputing outcomes
 
-In Truemarkets, disputers are drawn from the same permissionless participant set as resolvers. Anyone who disagrees with a proposed market resolution may dispute it during the challenge window following the proposal.
+In Trueo, disputers are drawn from the same permissionless participant set as resolvers. Anyone who disagrees with a proposed market resolution may dispute it during the challenge window following the proposal.
 
 Disputers play a critical role in the protocol as stewards of truth. They serve as the first line of defense against manipulation, ensuring that the oracle system operates in an orderly and credible manner.
 
@@ -16,7 +16,7 @@ Below is an example image of the data in a dispute transaction on basescan:
 
 ![](/img/disputing-outcomes-1.png)
 
-Truemarkets supports a three-stage arbitration process, with each escalation triggered by an unresolved or contested dispute:
+Trueo supports a three-stage arbitration process, with each escalation triggered by an unresolved or contested dispute:
 
 1. **Initial Challenge** — A resolution proposal may be challenged by posting a relatively small bond.
 2. **Oracle Council Appeal** — Disputing an Oracle Council decision requires a larger bond.

@@ -4,12 +4,12 @@ sidebar_position: 13
 
 # Tokenomics
 
-TRUE is the protocol token for Truemarkets.
+TRUE is the protocol token for Trueo.
 
 ## Token functions:
 
 * controls protocol fees
-* governs Truemarkets, its branding and domain
+* governs Trueo, its branding and domain
 * source of economic subjectivity in dispute resolution
 * governs oracle configurations
 
@@ -31,7 +31,7 @@ The largest allocation of the TRUE supply will be distributed to our Patron NFT 
 ### 2.2% - Airdrop
 
 * Genesis Attesters
-* Truemarkets Beta-phase users
+* Trueo Beta-phase users
 * Polymarket discord users (between January 1st 2024 and October 16 2024)
 
 ### 12.5% - TRUE/ETH incentives
@@ -58,4 +58,4 @@ To satisfy the need for liquidity, 12.5% of the supply will be distributed to TR
 
 ### 25% - Team and Advisors
 
-25% of the supply will be distributed to the Truemarkets team and advisors. This allocation will be linearly vested over two years.
+25% of the supply will be distributed to the Trueo team and advisors. This allocation will be linearly vested over two years.

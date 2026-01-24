@@ -24,7 +24,7 @@ If a dispute is rejected, the Oracle Council may choose between two outcomes:
 - Uphold the proposed resolution and slash the disputer
 - Uphold the proposed resolution without slashing the disputer
 
-The same philosophy of restraint applies to disputers as to resolvers. Truemarkets is designed to reward honest participation, not punish good-faith challenges—even when those challenges ultimately fail.
+The same philosophy of restraint applies to disputers as to resolvers. Trueo is designed to reward honest participation, not punish good-faith challenges—even when those challenges ultimately fail.
 
 ## Escalated Disputes
 
@@ -43,13 +43,13 @@ As with earlier stages, if an escalated dispute is deemed to have merit, the $2,
 
 ## Final Verdict: Attesters
 
-Attesters are the final arbiters of disputes within Truemarkets. They are provably reputable individuals whose credibility is independent of the protocol, selected based on demonstrated onchain governance participation, social reputation, or industry experience.
+Attesters are the final arbiters of disputes within Trueo. They are provably reputable individuals whose credibility is independent of the protocol, selected based on demonstrated onchain governance participation, social reputation, or industry experience.
 
 Once admitted, attesters may opt into jury duty and be randomly selected to resolve escalated disputes.
 
 Escalation to attesters may only be triggered by a wallet controlling at least 3,500 TRUE tokens (or equivalent voting power). During the genesis phase of the protocol, no additional bond is required to initiate an attester vote. 
 
-Rather than relying solely on large bonds for spam resistance, Truemarkets uses token ownership requirements to gate access to attester escalation.
+Rather than relying solely on large bonds for spam resistance, Trueo uses token ownership requirements to gate access to attester escalation.
 
 At this stage, attesters do not rule on an additional bond. They determine:
 
@@ -65,7 +65,7 @@ Accordingly, under healthy protocol conditions:
 - Attesters should generally defer to TRUE holder decisions
 - TRUE holders should generally defer to Oracle Council decisions
 
-This principle of hierarchical deference mirrors long-standing judicial systems, where higher courts typically uphold lower court rulings absent clear error or deviation from accepted norms. Truemarkets adopts this model to balance efficiency, decentralization, and credible neutrality throughout the dispute resolution process.
+This principle of hierarchical deference mirrors long-standing judicial systems, where higher courts typically uphold lower court rulings absent clear error or deviation from accepted norms. Trueo adopts this model to balance efficiency, decentralization, and credible neutrality throughout the dispute resolution process.
 
 
 

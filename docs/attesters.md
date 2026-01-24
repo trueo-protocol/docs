@@ -6,7 +6,7 @@ sidebar_position: 11
 
 ## Proof of Reputation
 
-Attesters are the protocol's final line of defense in the pursuit of truth. They serve as the highest arbiters in Truemarkets' dispute resolution system and are composed of provably reputable individuals whose credibility is earned externally to the protocol.
+Attesters are the protocol's final line of defense in the pursuit of truth. They serve as the highest arbiters in Trueo' dispute resolution system and are composed of provably reputable individuals whose credibility is earned externally to the protocol.
 
 These individuals include high-ranking governance delegates, respected founders, and other prominent contributors within the Ethereum ecosystem who are willing to stake their reputations behind their decisions. Over time, this set may expand to include reputable individuals outside of crypto as well.
 
@@ -26,7 +26,7 @@ Attesters are selected through protocol governance. Once admitted to the atteste
 
 ## Lottery System and Incentives
 
-To encourage attesters to remain active and available, Truemarkets employs a lottery system for attesters who register for "jury duty" each epoch.
+To encourage attesters to remain active and available, Trueo employs a lottery system for attesters who register for "jury duty" each epoch.
 
 During each epoch, a random subset of registered attesters is selected to receive a reward denominated in TRUE tokens. By registering, attesters signal their readiness to participate in dispute resolution if called upon.
 
