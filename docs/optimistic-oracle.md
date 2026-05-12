@@ -33,7 +33,7 @@ Attesters are a pool of provably reputable individuals. When escalation reaches 
 
 ### Stage 3 — Token Holder Escalation (12-hour challenge window)
 
-- A participant escalates the dispute by posting a $2,500 bond.
+- A participant escalates the dispute by posting a $750 bond.
 
 ### Stage 4 — TRUE Holder Vote
 
@@ -42,7 +42,7 @@ Attesters are a pool of provably reputable individuals. When escalation reaches 
 
 ### Stage 5 — Final Escalation (12-hour challenge window)
 
-- A participant holding at least 3,500 TRUE tokens disputes the token holder decision.
+- A participant holding at least 250,000 TRUE tokens disputes the token holder decision.
 
 ### Stage 6 — Attester Verdict
 
