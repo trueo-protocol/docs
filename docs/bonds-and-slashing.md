@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # Bonds and Slashing
 
-Bond amounts are configured per market. Current manager defaults are 250 TYD for resolution, 250 TYD for the initial dispute, and 750 TYD for escalation to TRUE holders. Each market snapshots these values when it is initialized, so read its `resolverBondAmount()`, `disputerBondAmount()`, and `escalatorBondAmount()` before acting. Older markets may retain earlier defaults.
+Each market stores its selected payment token and snapshots the manager's bond amounts when it is initialised. The current manager's default payment token is TYD, with bond defaults of 250 TYD for resolution, 250 TYD for the initial dispute, and 750 TYD for escalation to TRUE holders. Before acting, read the market's `paymentToken()` and that token's `decimals()`, together with the market's `resolverBondAmount()`, `disputerBondAmount()`, and `escalatorBondAmount()`. Older markets may retain earlier settings.
 
 ## Accepted Disputes
 
@@ -32,6 +32,8 @@ The same philosophy of restraint applies to disputers as to resolvers. Trueo is 
 
 If a participant disagrees with an Oracle Council decision, the dispute may be escalated by posting the market's `escalatorBondAmount()`. Under current manager defaults, this is 750 TYD. Older markets may have snapshotted an earlier 2,500 TYD amount.
 
+To escalate during the second challenge window, resolve `OracleBonds` and `Escalation` from the active `TruthMarketManager` through `oracleBonds()` and `escalationAddress()`. Approve `OracleBonds` to spend the market's `escalatorBondAmount()` of its payment token, then call `Escalation.openEscalatedDispute(market, disputeString)`.
+
 Once escalated, TRUE token holders arbitrate the dispute. Token holders vote on:
 
 - The correct market outcome
@@ -49,7 +51,7 @@ Attesters are the final arbiters of disputes within Trueo. They are provably rep
 
 Once admitted, attesters may opt into jury duty and be randomly selected to resolve escalated disputes.
 
-Escalation to attesters may only be triggered by a participant holding at least 250,000 TRUE tokens. During the genesis phase of the protocol, no additional bond is required to initiate an attester vote.
+Escalation to attesters may only be triggered when the participant's wallet either holds at least 250,000 liquid TRUE or has at least 250,000 TRUE staked. During the genesis phase of the protocol, no additional bond is required to initiate an attester vote.
 
 Rather than relying solely on large bonds for spam resistance, Trueo uses token ownership requirements to gate access to attester escalation.
 
@@ -68,5 +70,3 @@ Accordingly, under healthy protocol conditions:
 - TRUE holders should generally defer to Oracle Council decisions
 
 This principle of hierarchical deference mirrors long-standing judicial systems, where higher courts typically uphold lower court rulings absent clear error or deviation from accepted norms. Trueo adopts this model to balance efficiency, decentralization, and credible neutrality throughout the dispute resolution process.
-
-
