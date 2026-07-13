@@ -18,9 +18,11 @@ Attesters are a pool of provably reputable individuals. When escalation reaches 
 
 ## Oracle Progression
 
+Bond amounts are configured per market. The figures below are current manager defaults: 250 TYD for resolution, 250 TYD for the initial dispute, and 750 TYD for escalation to TRUE holders. Each market snapshots these values when it is initialized, so read its `resolverBondAmount()`, `disputerBondAmount()`, and `escalatorBondAmount()` before acting. Older markets may retain earlier defaults.
+
 ### Stage 0 — Resolution Proposal
 
-- A resolver proposes an outcome and posts a $250 bond.
+- A resolver proposes an outcome and posts a 250 TYD bond.
 
 ### Stage 1 — Initial Dispute (12-hour challenge window)
 
@@ -33,7 +35,7 @@ Attesters are a pool of provably reputable individuals. When escalation reaches 
 
 ### Stage 3 — Token Holder Escalation (12-hour challenge window)
 
-- A participant escalates the dispute by posting a $750 bond.
+- A participant escalates the dispute by posting a 750 TYD bond.
 
 ### Stage 4 — TRUE Holder Vote
 

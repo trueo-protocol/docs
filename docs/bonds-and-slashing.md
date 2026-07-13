@@ -4,6 +4,8 @@ sidebar_position: 12
 
 # Bonds and Slashing
 
+Bond amounts are configured per market. Current manager defaults are 250 TYD for resolution, 250 TYD for the initial dispute, and 750 TYD for escalation to TRUE holders. Each market snapshots these values when it is initialized, so read its `resolverBondAmount()`, `disputerBondAmount()`, and `escalatorBondAmount()` before acting. Older markets may retain earlier defaults.
+
 ## Accepted Disputes
 
 When a dispute is accepted, the Oracle Council evaluates both the correctness of the proposed resolution and whether the resolver acted in good faith. One of four outcomes may occur:
@@ -28,7 +30,7 @@ The same philosophy of restraint applies to disputers as to resolvers. Trueo is 
 
 ## Escalated Disputes
 
-If a participant disagrees with an Oracle Council decision, the dispute may be escalated by posting a $2,500 bond. This higher bond requirement exists to prevent low-cost griefing and to compensate the protocol for the increased resources consumed by escalation.
+If a participant disagrees with an Oracle Council decision, the dispute may be escalated by posting the market's `escalatorBondAmount()`. Under current manager defaults, this is 750 TYD. Older markets may have snapshotted an earlier 2,500 TYD amount.
 
 Once escalated, TRUE token holders arbitrate the dispute. Token holders vote on:
 
@@ -39,7 +41,7 @@ Under normal conditions, TRUE holders are expected to largely defer to the Oracl
 
 The token holder vote primarily serves as a safeguard against Oracle Council collusion, manipulation, or failure. Absent new evidence or clear misconduct, TRUE holders should generally align with the Oracle Council's determination.
 
-As with earlier stages, if an escalated dispute is deemed to have merit, the $2,500 escalation bond should not be slashed—regardless of whether the dispute ultimately succeeds.
+As with earlier stages, if an escalated dispute is deemed to have merit, the market's escalation bond should not be slashed—regardless of whether the dispute ultimately succeeds.
 
 ## Final Verdict: Attesters
 
@@ -47,7 +49,7 @@ Attesters are the final arbiters of disputes within Trueo. They are provably rep
 
 Once admitted, attesters may opt into jury duty and be randomly selected to resolve escalated disputes.
 
-Escalation to attesters may only be triggered by a wallet controlling at least 3,500 TRUE tokens (or equivalent voting power). During the genesis phase of the protocol, no additional bond is required to initiate an attester vote. 
+Escalation to attesters may only be triggered by a wallet controlling at least 250,000 TRUE tokens. During the genesis phase of the protocol, no additional bond is required to initiate an attester vote.
 
 Rather than relying solely on large bonds for spam resistance, Trueo uses token ownership requirements to gate access to attester escalation.
 
