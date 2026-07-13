@@ -21,14 +21,13 @@ Trueo supports a multi-stage arbitration process, with each escalation triggered
 1. **Initial Challenge** — A resolution proposal may be challenged by posting the market's initial dispute bond.
 2. **Oracle Council Arbitration** — The Oracle Council selects an outcome and determines the resolver and disputer slashing conditions.
 3. **TRUE Holder Escalation and Vote** — The Oracle Council decision may be disputed by posting the market's escalation bond, after which TRUE holders vote on the outcome and slashing conditions.
-4. **Attester Final Verdict** — A qualifying participant may dispute the TRUE holder decision, after which attesters determine the final outcome and slashing conditions.
+4. **Attester Final Verdict** — A wallet controlling at least 250,000 TRUE may dispute the TRUE holder decision, after which attesters determine the final outcome and slashing conditions.
 
 ![](/img/disputing-outcomes-2.png)
 
 *The diagram's 250 and 750 bond figures show current TYD-denominated manager defaults. A market's snapshotted bond amounts are authoritative for that market.*
 
 This tiered arbitration structure balances accessibility with escalating economic guarantees, ensuring that only strongly justified disputes advance to higher-resolution layers.
-
 
 
 
