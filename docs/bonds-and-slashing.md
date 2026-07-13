@@ -49,7 +49,7 @@ Attesters are the final arbiters of disputes within Trueo. They are provably rep
 
 Once admitted, attesters may opt into jury duty and be randomly selected to resolve escalated disputes.
 
-Escalation to attesters may only be triggered by a wallet controlling at least 250,000 TRUE tokens. During the genesis phase of the protocol, no additional bond is required to initiate an attester vote.
+Escalation to attesters may only be triggered by a participant holding at least 250,000 TRUE tokens. During the genesis phase of the protocol, no additional bond is required to initiate an attester vote.
 
 Rather than relying solely on large bonds for spam resistance, Trueo uses token ownership requirements to gate access to attester escalation.
 
@@ -68,6 +68,5 @@ Accordingly, under healthy protocol conditions:
 - TRUE holders should generally defer to Oracle Council decisions
 
 This principle of hierarchical deference mirrors long-standing judicial systems, where higher courts typically uphold lower court rulings absent clear error or deviation from accepted norms. Trueo adopts this model to balance efficiency, decentralization, and credible neutrality throughout the dispute resolution process.
-
 
 
