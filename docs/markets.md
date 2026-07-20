@@ -6,8 +6,6 @@ sidebar_position: 5
 
 The lifecycle of a market begins with its creation.
 
-In the early stages of the protocol, market creation is delegated to a set of whitelisted addresses.
-
 Each market is defined by three immutable string fields that are committed onchain within the market creation transaction:
 
 - `_marketQuestion` — A string representing the exact market question.
