@@ -10,13 +10,13 @@ Website - [Trueo.com](https://trueo.com)
 
 Discord - [https://discord.gg/trueo](https://discord.gg/trueo)
 
-X - [https://x.com/trueo_app](https://x.com/trueo_app)
+X - [https://x.com/Trueo_](https://x.com/Trueo_)
 
 Brand assets - [https://trueo.com/en/brand](https://trueo.com/en/brand)
 
 Oracle whitepaper - [https://truth-oracle.gitbook.io/truth-oracle](https://truth-oracle.gitbook.io/truth-oracle)
 
-Github - [https://github.com/trueo-protocol](https://github.com/trueo-protocol)
+GitHub - [https://github.com/trueo-protocol](https://github.com/trueo-protocol)
 
 ## Contract Addresses
 

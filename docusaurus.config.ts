@@ -89,7 +89,7 @@ const config: Config = {
             },
             {
               label: 'X',
-              href: 'https://x.com/trueo_app',
+              href: 'https://x.com/Trueo_',
             },
           ],
         },
