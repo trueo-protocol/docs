@@ -10,7 +10,6 @@ The Oracle Council (OC) is a governance body within Trueo and serves as the prim
 
 The Oracle Council fulfills several core functions within Trueo:
 
-- **Market Creation (Genesis Phase)** — Creating markets in accordance with the Market Creation Guidelines, informed by community input and market insights.
 - **Low-Level Dispute Resolution** — Arbitrating initial disputes and proposing resolutions when markets are challenged.
 - **Parameter Definition** — Defining and adjusting select market- and oracle-related parameters during the protocol's early governance phase.
 
