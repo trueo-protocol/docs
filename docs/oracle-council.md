@@ -41,5 +41,5 @@ During the genesis phase, the Oracle Council may assume additional governance re
 - [https://x.com/mrinconcruz](https://x.com/mrinconcruz)
 - [https://x.com/fakesmallcc](https://x.com/fakesmallcc)
 - [https://x.com/0xTangle](https://x.com/0xTangle)
-- [https://x.com/lumbergdoteth](https://x.com/lumbergdoteth)
+- [https://x.com/Lumberg](https://x.com/Lumberg)
 
