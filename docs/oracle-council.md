@@ -15,8 +15,6 @@ The Oracle Council fulfills several core functions within Trueo:
 
 ## Role in Dispute Resolution
 
-During the genesis phase, market creation is restricted to Oracle Council members. These members curate markets based on community suggestions while adhering strictly to the protocol's market creation standards.
-
 As a specialist committee, the Oracle Council contributes informed perspectives to dispute resolution. Its role is to gather and evaluate all relevant information necessary to render a reasoned judgment. In the ideal case, Oracle Council resolutions reflect the most subjectively accurate outcome as expected by the broader community.
 
 Of all arbitrators in the system, the Oracle Council is expected to provide the most informed and context-aware opinion in a market's resolution path—assuming honest participation.
